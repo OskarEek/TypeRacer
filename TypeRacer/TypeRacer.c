@@ -64,6 +64,7 @@ int main()
 
     clock_t start = clock();
     int wordsTyped = 0;
+    int missed = 0;
     bool updateWPN = true;
     while (strlen(outputText) != 0) {
         system("cls");
@@ -86,7 +87,7 @@ int main()
             memmove(outputText, outputText + 1, strlen(outputText));
         }
         else {
-            printf("False");
+            missed++;
         }
 
         if (updateWPN) {
@@ -99,4 +100,7 @@ int main()
     // Stop timer
     printf("Final WPM: ");
     printf("%f", wpm);
+    printf("\n");
+    printf("Number of misesed key-presses: ");
+    printf("%d", missed);
 }

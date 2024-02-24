@@ -4,6 +4,6 @@ C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(15,26): warning C4013: 'strlen' un
 C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(20,28): warning C4013: 'toupper' undefined; assuming extern returning int
 C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(42,5): warning C4013: 'srand' undefined; assuming extern returning int
 C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(54,9): warning C4013: 'strcat' undefined; assuming extern returning int
-C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(69,9): warning C4013: 'system' undefined; assuming extern returning int
-C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(86,13): warning C4013: 'memmove' undefined; assuming extern returning int
+C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(70,9): warning C4013: 'system' undefined; assuming extern returning int
+C:\Utveckling\TypeRacer\TypeRacer\TypeRacer.c(87,13): warning C4013: 'memmove' undefined; assuming extern returning int
   TypeRacer.vcxproj -> C:\Utveckling\TypeRacer\x64\Debug\TypeRacer.exe
